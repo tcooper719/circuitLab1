@@ -1,0 +1,27 @@
+`timescale 1ns / 1ns 
+
+module testbench; 
+reg a, b; 
+wire oand1, oand2, oor1, oor2, onot1, onot2; 
+
+AND1 and1(oand1,a,b); 
+AND2 and2(oand2,a,b); 
+OR1 or1(oor1,a,b); 
+OR2 or2(oor2,a,b);  
+NOT1 not1(onot1, a); 
+NOT2 not2(onot2, a); 
+
+   initial 
+   begin 
+       #10 a=0; b=0; 
+       #10 a=0; b=1;      
+       #10 a=1; b=0; 
+       #10 a=1; b=1; 
+       #10 a=0; b=0; 
+//       #10 $stop; 
+   end 
+   initial
+     $monitor($stime,, a,, b,, oand1,, oand2,, oor1,, oor2,, onot1,, onot2); 
+endmodule 
+
+

@@ -1,0 +1,17 @@
+
+module main_tb();
+
+reg a,b;
+reg oAND, oOR, oNOT; 
+
+initial //this changes the state of the inputs
+		//this is the truth table
+		begin
+			#10 a=0; b=0;
+			#10 a=0; b=1;
+			#10 a=1; b=0;
+			#10 a=1; b=1;
+			#10 $stop;
+		$monitor($stime, a, b, oAND, oOR, oNOT);
+		end
+endmodule 

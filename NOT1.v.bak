@@ -1,0 +1,3 @@
+module NOT1 (output reg onot1, input A);
+    assign onot1 = ~A;//this assigns the output A to 
+endmodule 

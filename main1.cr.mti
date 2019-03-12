@@ -1,0 +1,50 @@
+C:/code/lab1/OR2.v {1 {vlog -work work -stats=none C:/code/lab1/OR2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module OR2
+
+Top level modules:
+	OR2
+
+} {} {}} C:/code/lab1/NOT2.v {1 {vlog -work work -stats=none C:/code/lab1/NOT2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module NOT2
+
+Top level modules:
+	NOT2
+
+} {} {}} C:/code/lab1/AND1.v {1 {vlog -work work -stats=none C:/code/lab1/AND1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AND1
+
+Top level modules:
+	AND1
+
+} {} {}} C:/code/lab1/testBench.v {1 {vlog -work work -stats=none C:/code/lab1/testBench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/code/lab1/AND2.v {1 {vlog -work work -stats=none C:/code/lab1/AND2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AND2
+
+Top level modules:
+	AND2
+
+} {} {}} C:/code/lab1/NOT1.v {1 {vlog -work work -stats=none C:/code/lab1/NOT1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module NOT1
+
+Top level modules:
+	NOT1
+
+} {} {}} C:/code/lab1/OR1.v {1 {vlog -work work -stats=none C:/code/lab1/OR1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module OR1
+
+Top level modules:
+	OR1
+
+} {} {}}
